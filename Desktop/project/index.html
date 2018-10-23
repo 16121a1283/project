@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Give Blood Save Life</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+body, html {
+    height: 100%;
+  
+}
+
+.bg {
+    /* The image used */
+    background-image: url("bg1.png");
+
+    /* Full height */
+    height: 120%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+grad1{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .heartbody { 
+  text-align: center; 
+
+}
+  .heart {
+	font-size:20px;
+	color: #e00;
+	animation: beat .50s infinite alternate;
+	transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+  
+</style>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark"> 
+<a class="navbar-brand" href="#">
+    <img src="logo.jpg" alt="logo" style="width:30px;height:30px">
+  </a>
+  <div class="container-fluid">
+    <!-- <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div> -->
+    <ul class="nav navbar-nav">
+      <li class="active"><a class="navbar-brand" href="index.html"> <span class="glyphicon glyphicon-home"></span> Home</a></li>  
+      <li><a class="navbar-brand" href="aboutus.html"> <span class="glyphicon glyphicon-user"></span> About Us</a></li>
+      <li><a class="navbar-brand" href="search.php"><span class="glyphicon glyphicon-search"></span>Search</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="registration.php"><span class="glyphicon glyphicon-user"></span> Registration </a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> LogIn</a></li>
+    </ul>
+  </div>
+</nav>
+  <div class="bg"></div>
+</body>
+</html>
