@@ -22,7 +22,3 @@ the results will be displayed according to the selected bloodgroup
 NOTE:there are some issues with the database,details which we enter in registration form are not saving
 in the data base.
 so for now i enter some values manually
-
-for login use:
-email:daya@g.com
-password:123789
