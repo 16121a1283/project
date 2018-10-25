@@ -45,7 +45,7 @@ STEPS TO EXECUTE THIS PROJECT:
 
 1. Install XAMPP software and start apache and mysql.
 2. Create database as in the screenshots provided. 
-3. Open browser and then execute :  http://localhost/bloodbank/index.php
+3. Open browser and then execute :  http://localhost/Desktop/project/index.php
 
 
 PROJECT DEVELOPERS:
